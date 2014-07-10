@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+{
+	background-color: #7a0409;
+	background-image: url('../img/background.jpg');
+	background-repeat:repeat-x;
+	font-size: 14px;
+	font-family: Arial;
+	color: #380002;
+}
+
+form 
+{
+	background-color: #f7e4b9;
+	margin-top: 10px;
+	width: 408px;
+	padding: 10px;
+	border: 3px solid #380002;
+}
+
+input 
+{
+	font-size: 14px;
+	border: 1px solid black;
+	width: 250px;
+}
+
+#content
+{
+	width: 1090px;
+	height: 820px;
+}
+
+#header
+{
+	width: 408px;
+	height: 163px;
+	background-image: url('../img/madlib_header.png');
+	margin-top: 10px;
+}
+
+#madlib_form
+{
+	float: left;
+	margin-left: 10px;
+}
+
+#response
+{
+	float: left;
+	margin:100px 0px 0px 30px;
+	width: 611px;
+}
+
+#submit
+{
+	background-image: url('../img/submit.png');
+	width: 105px;
+	height: 45px;
+	margin: 10px;
+	float: right;
+	border: 3px solid #380002;
+}
+
+.lighttext
+{
+	color: #f7e4b9;
+	font-size: 18px;
+}
+
+.redtext
+{
+	color: red;
+	font-weight: bold;
+}
+
+.field
+{
+	margin-top: 5px;
+}
+
+#madlib
+{
+	background-image: url('../img/madlib_background.png');
+	width: 611px;
+	height: 553px;
+}
+
+#story
+{
+	width: 430px;
+	padding: 150px 0px 0px 100px;
+	font-size: 20px;
+	color: 380002;
+}
